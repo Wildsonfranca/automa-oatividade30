@@ -31,3 +31,14 @@ auto.press('enter')
 auto.write('')
 time.sleep(15)
 auto.press('enter')
+
+for i in range(11):
+    auto.press('tab')
+    time.sleep(40)
+auto.write('vscode')    
+auto.press('ctrl','j') 
+auto.press('ctrl','j')  
+time.sleep(40) 
+
+
+
